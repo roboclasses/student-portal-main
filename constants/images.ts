@@ -1,0 +1,1 @@
+export const LOGO_IMG = '/images/logo.svg'
