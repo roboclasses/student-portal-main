@@ -21,8 +21,8 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
-// import { useRouter } from "next/navigation"
-// import { deleteUserSession } from "@/lib/session"
+import { useRouter } from "next/navigation"
+import { deleteUserSession } from "@/lib/session"
 
 export function NavUser({
   user,
@@ -34,16 +34,14 @@ export function NavUser({
   }
 }) {
   const { isMobile } = useSidebar()
-//   const router = useRouter();
+  const router = useRouter();
 
   // Handle logout
   const handleLogout = async()=>{
-    // await deleteUserSession();
-    // router.push('/login')
-    console.log("Logged-out");
+    await deleteUserSession();
+    router.push('/login')
     
   }
-
 
   return (
     <SidebarMenu>
