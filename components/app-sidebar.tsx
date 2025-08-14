@@ -241,7 +241,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       },
        {
         title:  "Student Dashboard",
-        url:  "/students/dashboard",
+        url:  "/students/studentDashboard",
         icon: LayoutDashboard,
         isActive: false,
       },
