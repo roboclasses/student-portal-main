@@ -76,7 +76,7 @@ export function LoginForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="w-full px-5">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="w-full lg:px-40 px-5">
         <div className="space-y-5">
 
           {/* Email Address */}
