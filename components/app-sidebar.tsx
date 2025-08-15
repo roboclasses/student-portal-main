@@ -223,22 +223,22 @@ useEffect(()=>{
     ],
 
     navMainStudent: [
-      {
-        title: "Take Appointment",
-        url: "#",
-        icon: SquareTerminal,
-        isActive: true,
-        items: [
-          {
-            title: "Register a Student",
-            url: "/appointment/studentRegister",
-          },
-          {
-            title: "Student Holiday",
-            url: "/appointment/holiday",
-          },
-        ],
-      },
+      // {
+      //   title: "Take Appointment",
+      //   url: "#",
+      //   icon: SquareTerminal,
+      //   isActive: true,
+      //   items: [
+      //     {
+      //       title: "Register a Student",
+      //       url: "/appointment/studentRegister",
+      //     },
+      //     {
+      //       title: "Student Holiday",
+      //       url: "/appointment/holiday",
+      //     },
+      //   ],
+      // },
        {
         title:  "Student Dashboard",
         url:  "/students/studentDashboard",
