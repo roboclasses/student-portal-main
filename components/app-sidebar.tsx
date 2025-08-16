@@ -245,6 +245,12 @@ useEffect(()=>{
         icon: LayoutDashboard,
         isActive: false,
       },
+      {
+        title:  "Course catalog",
+        url:  "/students/courseCatalog",
+        icon: BookIcon,
+        isActive: false,
+      },
     ],
     
     navMainContractor: [

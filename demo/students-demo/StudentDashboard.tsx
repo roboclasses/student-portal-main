@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -8,34 +7,7 @@ import Image from "next/image"
 
 export function StudentDashboard() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 p-8">
       <div className="max-w-7xl mx-auto">
-        {/* Header with Profile */}
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-900">Student Dashboard</h1>
-            <p className="text-gray-600">December 15, 2024</p>
-          </div>
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="relative">
-              <Bell className="w-5 h-5" />
-              <Badge className="absolute -top-1 -right-1 w-5 h-5 p-0 flex items-center justify-center bg-red-500 text-white text-xs">
-                3
-              </Badge>
-            </Button>
-            <div className="flex items-center gap-3">
-              <Avatar>
-                <AvatarImage src="/placeholder.svg?height=40&width=40" />
-                <AvatarFallback>JD</AvatarFallback>
-              </Avatar>
-              <div>
-                <p className="font-medium">John Doe</p>
-                <p className="text-sm text-gray-500">3rd Year</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Welcome Banner */}
         <Card className="mb-8 bg-custom-gradient text-white border-0">
           <CardContent className="p-8">
@@ -272,6 +244,5 @@ export function StudentDashboard() {
           </div>
         </div>
       </div>
-    </div>
   )
 }
