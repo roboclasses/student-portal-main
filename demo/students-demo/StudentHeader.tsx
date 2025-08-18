@@ -4,15 +4,20 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Bell } from "lucide-react";
-import { usePathname } from "next/navigation";
-
-const routesData = [
-  {id:1, path:'/students/studentDashboard', name:'Student Dashboard'},
-  {id:2, path:'/students/courseCatalog', name:'My Courses & Course Catalog'},
-]
+import { useParams, usePathname } from "next/navigation";
 
 const StudentHeader = () => {
   const pathname = usePathname();
+  const {slug} = useParams();
+
+  // Screen name based on routes data
+  const routesData = [
+  {id:1, path:'/students/studentDashboard', name:'Student Dashboard'},
+  {id:2, path:'/students/courseCatalog', name:'My Courses & Course Catalog'},
+  {id:3, path:`/students/courses/${slug}`, name:`${slug}`},
+  {id:4, path:'/students/assessmentsAndAssignments', name:'Assessments and Assignments'},
+  ]
+
   return (
     <div className="flex items-center justify-between mb-8 lg:px-40">
       <div>
