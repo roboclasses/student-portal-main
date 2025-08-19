@@ -214,7 +214,7 @@ export default function FacultiesDemo() {
               <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white">
                 Communication & Collaboration
               </h1>
-              <p className="text-sm sm:text-base text-black mt-1">Connect with peers and faculty</p>
+              <p className="text-sm sm:text-base text-purple-100 mt-1">Connect with peers and faculty</p>
             </div>
             <div className="flex items-center gap-2 sm:gap-3">
               <Button variant="outline" size="sm" className="flex-1 sm:flex-none bg-white">

@@ -92,7 +92,7 @@ export default function LibraryDemo() {
       duration: "1h 45m",
       views: 1234,
       date: "2024-02-15",
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
     },
     {
       id: 2,
@@ -102,7 +102,7 @@ export default function LibraryDemo() {
       duration: "2h 15m",
       views: 987,
       date: "2024-02-10",
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
     },
     {
       id: 3,
@@ -112,7 +112,7 @@ export default function LibraryDemo() {
       duration: "1h 30m",
       views: 2156,
       date: "2024-02-08",
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
     },
     {
       id: 4,
@@ -122,7 +122,7 @@ export default function LibraryDemo() {
       duration: "1h 20m",
       views: 1654,
       date: "2024-02-05",
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
     },
   ]
 
@@ -216,7 +216,7 @@ export default function LibraryDemo() {
               <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white">
                 Learning Resources & Library
               </h1>
-              <p className="text-sm sm:text-base mt-1">Access supplementary materials and resources</p>
+              <p className="text-sm sm:text-base mt-1 text-purple-100">Access supplementary materials and resources</p>
             </div>
             <div className="flex items-center gap-2 sm:gap-3">
               <Button variant="outline" size="sm" className="flex-1 sm:flex-none">

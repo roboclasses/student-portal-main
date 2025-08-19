@@ -209,7 +209,7 @@ export default function SupportDemo() {
       duration: "8:45",
       views: "3.2k",
       rating: 4.9,
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
       category: "Basics",
       description: "Complete walkthrough of the LMS interface and basic navigation",
     },
@@ -219,7 +219,7 @@ export default function SupportDemo() {
       duration: "6:30",
       views: "2.8k",
       rating: 4.8,
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
       category: "Assignments",
       description: "Step-by-step guide to submitting different types of assignments",
     },
@@ -229,7 +229,7 @@ export default function SupportDemo() {
       duration: "5:15",
       views: "1.9k",
       rating: 4.7,
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
       category: "Communication",
       description: "Learn how to engage effectively in course discussions",
     },
@@ -239,7 +239,7 @@ export default function SupportDemo() {
       duration: "7:20",
       views: "2.1k",
       rating: 4.9,
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
       category: "Grades",
       description: "Navigate the grading system and track your academic progress",
     },
@@ -249,7 +249,7 @@ export default function SupportDemo() {
       duration: "4:50",
       views: "1.5k",
       rating: 4.6,
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
       category: "Mobile",
       description: "Access your courses and complete tasks on mobile devices",
     },
@@ -259,7 +259,7 @@ export default function SupportDemo() {
       duration: "9:10",
       views: "2.7k",
       rating: 4.8,
-      thumbnail: "/placeholder.svg?height=120&width=200",
+      thumbnail: "/assets/images/student-profile.png",
       category: "Technical",
       description: "Solve the most common technical problems independently",
     },
@@ -285,7 +285,7 @@ export default function SupportDemo() {
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
                 Help & Support Center
               </h1>
-              <p className="text-sm sm:text-base text-gray-600">
+              <p className="text-sm sm:text-base text-purple-100">
                 Get assistance, find answers, and learn how to use the LMS effectively
               </p>
             </div>

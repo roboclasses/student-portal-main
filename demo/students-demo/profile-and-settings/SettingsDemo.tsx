@@ -109,7 +109,7 @@ export default function SettingsDemo() {
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
                 Profile & Settings
               </h1>
-              <p className="text-sm sm:text-base">Manage your personal information and preferences</p>
+              <p className="text-sm sm:text-base text-purple-100">Manage your personal information and preferences</p>
             </div>
             <div className="flex flex-col xs:flex-row gap-2 sm:gap-3">
               <Button variant="outline" size="sm" className="bg-white/50 border-purple-200 hover:bg-purple-50">

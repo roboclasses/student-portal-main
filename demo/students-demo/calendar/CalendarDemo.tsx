@@ -189,7 +189,7 @@ export default function CalendarDemo() {
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
                 Calendar & Schedule
               </h1>
-              <p className="text-sm sm:text-base">
+              <p className="text-sm sm:text-base text-purple-100">
                 Keep track of classes, deadlines, exams, and important events
               </p>
             </div>
