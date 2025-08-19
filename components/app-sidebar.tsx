@@ -16,7 +16,9 @@ import {
   SquareTerminal,
   User2,
   Users,
+  UsersIcon,
   View,
+  ViewIcon,
 } from "lucide-react";
 import { NavMain } from "@/components/nav-main";
 import { NavSecondary } from "@/components/nav-secondary";
@@ -253,9 +255,21 @@ useEffect(()=>{
         isActive: false,
       },
       {
-        title:  "Assignments and Assessments",
-        url:  "/students/assessmentsAndAssignments",
+        title:  "Assignments & Assessments",
+        url:  "/students/submission",
         icon: BookOpen,
+        isActive: false,
+      },
+      {
+        title:  "Grades & Progress",
+        url:  "/students/gradesAndProgress",
+        icon: ViewIcon,
+        isActive: false,
+      },
+      {
+        title:  "Communication",
+        url:  "/students/communication",
+        icon: UsersIcon,
         isActive: false,
       },
     ],

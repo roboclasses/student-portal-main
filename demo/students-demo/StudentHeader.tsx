@@ -15,7 +15,8 @@ const StudentHeader = () => {
   {id:1, path:'/students/studentDashboard', name:'Student Dashboard'},
   {id:2, path:'/students/courseCatalog', name:'My Courses & Course Catalog'},
   {id:3, path:`/students/courses/${slug}`, name:`${slug}`},
-  {id:4, path:'/students/assessmentsAndAssignments', name:'Assessments and Assignments'},
+  {id:4, path:'/students/submission', name:'Assessments and Assignments'},
+  {id:5, path:'/students/gradesAndProgress', name:'Grades And Progress'},
   ]
 
   return (

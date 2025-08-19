@@ -6,7 +6,7 @@ import CourseNotificationDemo from "./CourseNotificationDemo"
 
 export function CourseCatalog() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100">
       <div className="max-w-7xl mx-auto">
         {/* Courses filter section  */}
           <CoursesFilterDemo />

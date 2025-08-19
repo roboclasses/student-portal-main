@@ -17,9 +17,9 @@ import {
   Search,
 } from "lucide-react"
 
-export function TestDemo() {
+export function SubmissionDemo() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100">
       <div className="max-w-7xl mx-auto">
 
         <Card className="mb-8 bg-custom-gradient text-white">
@@ -124,7 +124,7 @@ export function TestDemo() {
                             </span>
                             <span>Points: 100</span>
                           </div>
-                          <div className="lg:flex space-y-2">
+                          <div className="flex gap-2">
                             <Button size="sm" variant="outline">
                               <Download className="w-4 h-4 mr-2" />
                               Instructions
@@ -159,7 +159,7 @@ export function TestDemo() {
                             </span>
                             <span>Points: 75</span>
                           </div>
-                          <div className="lg:flex space-y-2">
+                          <div className="flex gap-2">
                             <Button size="sm" variant="outline">
                               <Download className="w-4 h-4 mr-2" />
                               Instructions
@@ -194,7 +194,7 @@ export function TestDemo() {
                             </span>
                             <span>Points: 200</span>
                           </div>
-                          <div className="lg:flex space-y-2">
+                          <div className="flex gap-2">
                             <Button size="sm" variant="outline">
                               <Download className="w-4 h-4 mr-2" />
                               Requirements
@@ -455,7 +455,7 @@ export function TestDemo() {
                     </CardContent>
                   </Card>
                 </TabsContent>
-              </Tabs>
+              </Tabs> 
             </div>
           </div>
 

@@ -7,16 +7,16 @@ import { Card, CardContent } from '@/components/ui/card'
 
 const CoursesFilterDemo = () => {
   return (
-        <Card className="mb-8">
+        <Card className="mb-8 bg-custom-gradient">
           <CardContent className="p-6">
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-1 relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-                <Input placeholder="Search courses..." className="pl-10" />
+                <Input placeholder="Search courses..." className="pl-10 bg-white" />
               </div>
               <div className="flex gap-2">
                 <Select>
-                  <SelectTrigger className="w-40">
+                  <SelectTrigger className="w-40 bg-white">
                     <Filter className="w-4 h-4 mr-2" />
                     <SelectValue placeholder="Category" />
                   </SelectTrigger>
@@ -29,7 +29,7 @@ const CoursesFilterDemo = () => {
                   </SelectContent>
                 </Select>
                 <Select>
-                  <SelectTrigger className="w-32">
+                  <SelectTrigger className="w-32 bg-white">
                     <SelectValue placeholder="Level" />
                   </SelectTrigger>
                   <SelectContent>
