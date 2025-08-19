@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "demo/appointment-demo/NormalClassForm.jsx", "demo/appointment-demo/EditNormalClassForm.jsx"],
   "exclude": ["node_modules"]
 }
