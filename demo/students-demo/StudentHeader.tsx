@@ -13,10 +13,16 @@ const StudentHeader = () => {
   // Screen name based on routes data
   const routesData = [
   {id:1, path:'/students/studentDashboard', name:'Student Dashboard'},
-  {id:2, path:'/students/courseCatalog', name:'My Courses & Course Catalog'},
+  {id:2, path:'/students/courseCatalog', name:'My Courses And Course Catalog'},
   {id:3, path:`/students/courses/${slug}`, name:`${slug}`},
-  {id:4, path:'/students/submission', name:'Assessments and Assignments'},
+  {id:4, path:'/students/submission', name:'Assessments And Assignments'},
   {id:5, path:'/students/gradesAndProgress', name:'Grades And Progress'},
+  {id:6, path:'/students/communication', name:'Communication And Collaboration'},
+  {id:7, path:'/students/library', name:' Learning Resources / Library'},
+  {id:8, path:'/students/calendar', name:'Calendar / Schedule'},
+  {id:9, path:'/students/news', name:'Announcements / News'},
+  {id:10, path:'/students/profileAndSettings', name:'Profile and Settings'},
+  {id:11, path:'/students/helpAndSupport', name:'Help & Support'},
   ]
 
   return (
@@ -38,7 +44,7 @@ const StudentHeader = () => {
         </Button>
         <div className="flex items-center gap-3">
           <Avatar>
-            <AvatarImage src="/placeholder.svg?height=40&width=40" />
+            <AvatarImage src="/assets/images/student-profile.png" />
             <AvatarFallback>JD</AvatarFallback>
           </Avatar>
           <div>
